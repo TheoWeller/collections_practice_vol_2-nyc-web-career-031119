@@ -3,5 +3,6 @@ def begins_with_r(array)
   result = false
   if chr.initial != "r" ? false : true
   end
+  end
   result
 end
