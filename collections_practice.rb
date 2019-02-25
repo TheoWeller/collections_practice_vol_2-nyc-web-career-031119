@@ -19,5 +19,7 @@ def count_elements(array)
   end
 
   def merge_data(key, data)
-    key.zip(data).map(&:flatten)
+    merged = []
+  keys.each {|i| data.first.map {|k,v| if i.values[0] == k then merged << i.merge(v) end}}
+  merged
   end
