@@ -11,5 +11,10 @@ def first_wa(array)
 end
 
 def remove_non_strings(array)
-  array.delete_if {|e| e == String}
+  #array.delete_if {|e| e == String}
+  array.each |chr|
+  if e.is_a?(String) ? e.delete : pass
+
+  end
+
 end
