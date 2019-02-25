@@ -3,5 +3,5 @@ array.all? {|chr| chr[0] == "r"}
 end
 
 def contain_a(array)
-  array.all? {|chr| chr = "a"}
+  array.select {|e| e.include?("a")}
 end
