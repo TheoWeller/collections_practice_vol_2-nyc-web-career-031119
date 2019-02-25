@@ -7,6 +7,5 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  array.any? {|e| if e[0..1] = "wa" ? return e : false}
-end
+  array.detect {|e| e[0..1] = "wa"}
 end
