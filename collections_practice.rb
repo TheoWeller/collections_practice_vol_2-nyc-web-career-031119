@@ -11,5 +11,5 @@ def first_wa(array)
 end
 
 def remove_non_strings(array)
-  array.delete_if {|e| e.instance_of?(String)}
+  array.delete_if {|e| e == e.instance_of?(String)}
 end
