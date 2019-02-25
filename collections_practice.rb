@@ -3,7 +3,7 @@ def begins_with_r(array)
   result = false
   if chr[0] != "r" ? false : true
   end
-  result
+  return result
   end
-
+  
 end
