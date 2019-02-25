@@ -23,3 +23,10 @@ def count_elements(array)
   keys.each {|i| data.first.map {|k,v| if i.values[0] == k then merged << i.merge(v) end}}
   merged
   end
+
+  def find_cool(cool)
+    cool.select {|i| i.any? {|k,v| v == "cool"}} 
+  end
+
+  def organize_schools()
+  end
