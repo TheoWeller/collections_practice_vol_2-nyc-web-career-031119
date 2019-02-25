@@ -7,5 +7,5 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  array.detect {|e| e[0..1] = "wa"}
+  array.detect {|e| e[0..1] == "wa"}
 end
