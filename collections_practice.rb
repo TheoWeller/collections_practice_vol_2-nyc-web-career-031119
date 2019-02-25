@@ -16,7 +16,7 @@ end
 
 def count_elements(array)
   array.group_by(&:itself).map{|item, total| item.merge(count: total.length)}
-  end 
+  end
 
   def merge_data(array)
     array.flatten
