@@ -13,3 +13,11 @@ end
 def remove_non_strings(array)
   array.select {|element| element.is_a? String }
 end
+
+def count_elements(array)
+  counts = Hash.new 0
+
+array.each do |word|
+  counts[word] += 1
+end
+  
