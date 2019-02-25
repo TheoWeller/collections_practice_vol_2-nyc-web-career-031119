@@ -25,7 +25,7 @@ def count_elements(array)
   end
 
   def find_cool(cool)
-    cool.select {|i| i.any? {|k,v| v == "cool"}} 
+    cool.select {|i| i.any? {|k,v| v == "cool"}}
   end
 
   def organize_schools()
