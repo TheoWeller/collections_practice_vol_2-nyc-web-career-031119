@@ -11,5 +11,5 @@ def first_wa(array)
 end
 
 def remove_non_strings(array)
-  array.reject! {|e| e.instance_of?(String)}
+  array.reject! {|e| e.class == String}
 end
